@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/tool"
+            android:icon="@drawable/ic_tool"
+            android:title="Tool" />
+        <item
+            android:id="@+id/movie"
+            android:icon="@drawable/ic_movie"
+            android:title="Movie" />
+        <item
+            android:id="@+id/slide_show"
+            android:icon="@drawable/ic_slideshow"
+            android:title="Slide Show" />
+    </group>
+</menu>
